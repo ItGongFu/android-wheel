@@ -52,7 +52,7 @@ public class WheelView extends View {
 	private static final int ITEM_OFFSET_PERCENT = 0;
 
 	/** Left and right padding value */
-	private static final int PADDING = 10;
+	private static final int PADDING = 20;
 
 	/** Default count of visible items */
 	private static final int DEF_VISIBLE_ITEMS = 5;
@@ -622,11 +622,11 @@ public class WheelView extends View {
 	 */
 	private void drawShadows(Canvas canvas) {
 		int height = (int)(1.5 * getItemHeight());
-		topShadow.setBounds(0, 0, getWidth(), height);
-		topShadow.draw(canvas);
-
-		bottomShadow.setBounds(0, getHeight() - height, getWidth(), getHeight());
-		bottomShadow.draw(canvas);
+//		topShadow.setBounds(0, 0, getWidth(), height);
+//		topShadow.draw(canvas);
+//
+//		bottomShadow.setBounds(0, getHeight() - height, getWidth(), getHeight());
+//		bottomShadow.draw(canvas);
 	}
 
 	/**
