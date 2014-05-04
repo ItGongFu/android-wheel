@@ -1,1 +1,5 @@
 wheel/gen
+wheel-demo/build/classes
+wheel-demo/gen
+wheel/build
+wheel/proguard_logs
